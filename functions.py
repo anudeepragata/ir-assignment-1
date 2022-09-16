@@ -56,7 +56,7 @@ p = Polygon([
     linesegment(point(1,0), point(1,1)),
     linesegment(point(1,0), point(0,0)),
 ])
-for i in p.lslist:
-    print(i.p.x, i.p.y, i.q.x, i.q.y)
+# for i in p.lslist:
+#     print(i.p.x, i.p.y, i.q.x, i.q.y)
 
-print(point_on_line(point(-1,1), linesegment(point(0,0), point(1,0))))
+# print(point_on_line(point(-1,1), linesegment(point(0,0), point(1,0))))
